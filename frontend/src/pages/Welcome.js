@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const items = [
     "Kuidas React töötab?",
@@ -11,7 +11,6 @@ const items = [
   )
 
 const Welcome = ({name}) => <div> 
-    <h1>{name}</h1>
     {/* Question list */}
     <div className="questions">
         <ul>{listItems}</ul>

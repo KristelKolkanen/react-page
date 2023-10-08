@@ -6,7 +6,7 @@ const Toggle = ({toggleShow}) => {
     <Button 
     variant='contained'
     onClick={toggleShow}
-    >Toggle</Button>
+    >Show</Button>
   )
 }
 

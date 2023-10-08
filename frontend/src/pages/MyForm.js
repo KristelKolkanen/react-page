@@ -20,6 +20,19 @@ const MyForm = () => {
         console.log({name, myForm})
     }
 
+  // useEffect(() => {
+  //   console.log("No dependancy array")
+  // })
+
+  useEffect(() => {
+    console.log("Empty dependancy array")
+  }, [])
+
+  // useEffect(() => {
+  //   console.log("myForm updated")
+  // }, [myForm])
+
+
   return (        
     <form onSubmit={submitForm}>
         <Box 
